@@ -3,8 +3,20 @@ html,body,header,section,article,div,nav,span,figure,img,ul,li,main,section,h1,h
   padding:0;
   box-sizing:border-box;
 }
+/**
+Branco: #FFFFFF
+Azul Claro: #007aff
+Azul Escuro: #00043e
+Cinza: #303030
+Cinza Claro: #818181
+*****************
+
+ **/
 :root{
   --headerColor:#00043e;
+  --imgDesktopSize:300px;
+  --imgMobileSize:100%;
+
 }
 body{ 
   background-color:grey;
