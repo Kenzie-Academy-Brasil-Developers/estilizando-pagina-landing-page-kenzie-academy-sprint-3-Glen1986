@@ -3,10 +3,19 @@ html,body,header,section,article,div,nav,span,figure,img,ul,li,main,section,h1,h
   padding:0;
   box-sizing:border-box;
 }
+:root{
+  --headerColor:#00043e;
+}
 body{ 
   background-color:grey;
   }
-@media screen and (min-width:760px){
+  header{
+    background-color:var(--headerColor)
+  }
+.topo .large-container figure img{
+  width:100px;
+  }
+@media screen and (min-width:768px){
   body{
     background-color:red;
   }
