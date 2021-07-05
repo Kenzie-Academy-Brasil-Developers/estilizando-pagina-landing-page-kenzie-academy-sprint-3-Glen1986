@@ -3,32 +3,49 @@ html,body,header,section,article,div,nav,span,figure,img,ul,li,main,section,h1,h
   padding:0;
   box-sizing:border-box;
 }
-/**
-Branco: #FFFFFF
-Azul Claro: #007aff
-Azul Escuro: #00043e
-Cinza: #303030
-Cinza Claro: #818181
-*****************
-
- **/
-:root{
-  --headerColor:#00043e;
-  --imgDesktopSize:300px;
-  --imgMobileSize:100%;
-
+body{
+  font-family: 'Lato';
 }
-body{ 
-  background-color:grey;
-  }
-  header{
-    background-color:var(--headerColor)
-  }
-.topo .large-container figure img{
-  width:100px;
-  }
-@media screen and (min-width:768px){
-  body{
-    background-color:red;
-  }
+h2{
+  font-family: 'Montserrat';
+}
+
+ul a{
+  font-size: 13px;
+}
+.secaoDestaque h2{
+  font-size: 63px;
+}
+.secaoDestaque p{
+  font-size: 21px;
+}
+.secaoDestaque button{
+  font-size: 14px;
+}
+.secaoSobre h2{
+  font-size: 24px;
+}
+.flex-col{
+  font-size: 19px;
+}
+.secaoCursos h2{
+  font-size: 24px;
+}
+.secaoCursos p{
+  font-size: 19px;
+}
+.secaoCalendar h2,h3{
+  font-size: 19px;
+}
+.calendario-data{
+  font-size: 36px;
+}
+.secaoCalendar p,span{
+  font-size: 15px;
+}
+.secaoCalendar button{
+  font-size: 32px;
+}
+.secaoContato-informacoes{
+  font-size: 15px;
 }
