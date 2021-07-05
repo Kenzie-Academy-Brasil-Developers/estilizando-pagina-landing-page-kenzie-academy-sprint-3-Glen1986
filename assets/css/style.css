@@ -3,3 +3,11 @@ html,body,header,section,article,div,nav,span,figure,img,ul,li,main,section,h1,h
   padding:0;
   box-sizing:border-box;
 }
+body{ 
+  background-color:grey;
+  }
+@media screen and (max-width:760px){
+  body{
+    background-color:red;
+  }
+}
