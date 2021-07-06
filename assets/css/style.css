@@ -288,7 +288,7 @@ ul a{
 .flex-col button{
   height:60px;
 }
-.flex-col figure img{
+.python .flex-col figure img{
   height:200px;
   text-align:center;
 }
@@ -327,46 +327,46 @@ ul a{
 @media screen and (min-width: 780px){
 body{
   font-family:'lato', sans-serif;
-}
+  }
 h1,h2,span,p{
   font-family: 'montserrat', sans-serif;
-}
-  #menu-hamburguer #checkbox {
+  }
+#menu-hamburguer #checkbox {
     display: none;
   }
-  figcaption{
+figcaption{
     display: none;
   }
-  nav ul{
+nav ul{
   display: flex;
   list-style:none;
-}
+  }
 nav ul li a{
    color: white;
    display: ruby;
    text-decoration:none;
    margin-right:20px;
 
-}
+  }
 header.topo{
   display: flex;
   height:60px;
   -webkit-box;
   padding:0 20% 10% 20%;
   align-items:space-around;
-}
-figure img{
+  }
+.python figure img{
   width:80px;
   height:80px;
   padding-left:10%;
-}
+  }
 .large-container{
   display:flex;
   text-align: center;
   height:100%;
   width:100%;
   align-items:space-around;
-}
+  }
 .large-container nav div{
   padding-left:30rem;
   padding-top:2rem;
@@ -375,8 +375,36 @@ figure img{
     background-image: url(../img/background-destaque.webp);
     padding-top:6rem;
   }
+  .python article.flex{
+    justify-content:center;
+  }
+  article.felx .flex-col h2{
+    text-align:start;
+  }
+  .secaoSobre{
+    padding: 0 20%;
+  }
   .secaoSobre .python article{
     display:flex;
     flex-direction:row;
+    padding: 80px 20%;
+  }
+  .secaoSobre .python article.flex .flex-col h2{
+    text-align:left;
+    width:500px;
+  }
+  .python .flex figure img{
+    height:280px;
+  } 
+  .python button{
+    width:100px
+
+  }
+  .secaoSobre .python article.flex .flex-col figure{
+    width:500px;
+  }
+  .secaoSobre{
+    padding: 0;
+    width:100%
   }
 }
