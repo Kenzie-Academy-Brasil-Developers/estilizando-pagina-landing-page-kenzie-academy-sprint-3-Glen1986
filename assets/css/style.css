@@ -106,13 +106,12 @@ ul a{
 
 .flex-col{
   font-size: 19px;
-}
-.secaoSobre{
   display: flex;
+  flex-direction: column;
+  text-align: start;
   justify-content: center;
-  text-align: left;
-  align-items: center;
 }
+
 .secaoSobre h2{
   padding: 60px 30px 0 30px;
 }
@@ -121,13 +120,55 @@ ul a{
 }
 
 .flex-col span{
+  display: flex;
   
-  text-align:;
+  padding: 30px 30px 30px 30px;
 }
+.flex-col button{
+  align-self: center;
+  width: 280px;
+  height: 50px;
+  text-align: center;
+  font-family: var(--fonteSecundaria);
+  font-size: 20px;
+}
+.flex-col figure{
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.flex-col img{
+  width: 40%;
+  
+}
+.imagepython img{
+  width: 250px;
+  height: 168px;
+}
+.imagejavascript{
 
-
-
-
+}
+.flex-col .h2sobre{
+  padding-top: 20px;
+  display: flex;
+  justify-self: center;
+  text-align: center;
+}
+.flex-col .ulsobre{
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  padding: 30px 45px 0 90px;
+  justify-self: center;
+  align-items: center;
+}
+.flex-col li{
+  padding-top: 10px;
+  text-align: start;
+}
 
 
 .secaoCursos{
@@ -140,13 +181,13 @@ ul a{
 }
 .secaoCursos h2{
   font-size: 24px;
-  padding: 20px 0 20px 0;
+  padding: 40px 0 20px 0;
 }
 .secaoCursos p{
   padding: 10px 0 60px 0;
   font-size: 19px;
 }
-li{
+.secaoCursos li{
   list-style: none;
 }
 li img{
@@ -257,11 +298,10 @@ li p{
 .secaoContato h2{
   text-align: center;
 }
-.flex-col img{
+.icone img{
   width: 12px;
   height: 12px;
 }
-
 .flex-col h2{
   padding-bottom: 20px;
 }
