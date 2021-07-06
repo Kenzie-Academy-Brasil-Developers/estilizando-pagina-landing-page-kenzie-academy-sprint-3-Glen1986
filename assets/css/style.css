@@ -3,49 +3,119 @@ html,body,header,section,article,div,nav,span,figure,img,ul,li,main,section,h1,h
   padding:0;
   box-sizing:border-box;
 }
-body{
-  font-family: 'Lato';
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/*Branco: #FFFFFF
+Azul Claro: #007aff
+Azul Escuro: #00043e
+Cinza: #303030
+Cinza Claro: #818181 */
+
+/*Variáveis*/
+:root{
+--colorHeader: #00043e;
+--colorFonts: #FFFFFF;
+--colorButtom: #007aff;
 }
-h2{
-  font-family: 'Montserrat';
+
+/*      -------------      */
+
+
+header{
+  background-color: var(--colorHeader);
+  height: 100px;
+}
+
+.large-container{
+  width: 60px;
+  padding: 20px 0 0 20px;
+}
+nav ul{
+  display: none;
+}
+
+.secaoDestaque{
+  background-color: var(--colorHeader);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: var(--colorFonts);
+  padding: 0 15px 0px 15px;
+}
+.secaoDestaqueFormulario{
+  padding-bottom: 100px;
+  padding-top: 20px;
+  border-radius: 4px;
+}
+.secaoDestaqueFormulario input{
+  border-radius: 4px 0 0 4px;
+  height: 40px;
+  border: 0;
+ 
+}
+.secaoDestaqueFormulario button{
+  border-radius: 0 4px 4px 0;
+  height: 40px;
+  background-color: var(--colorButtom);
+  border: 0;
+  color: var(--colorFonts);
+  padding: 10px;
+  float: right;
 }
 
 ul a{
   font-size: 13px;
 }
+
 .secaoDestaque h2{
-  font-size: 63px;
+  font-size: 45px;
+  font-weight: lighter;
+
 }
+
 .secaoDestaque p{
   font-size: 21px;
+  margin-top: 10px;
 }
+
 .secaoDestaque button{
   font-size: 14px;
 }
+
 .secaoSobre h2{
   font-size: 24px;
 }
+
 .flex-col{
   font-size: 19px;
 }
+
 .secaoCursos h2{
   font-size: 24px;
 }
+
 .secaoCursos p{
   font-size: 19px;
 }
+
 .secaoCalendar h2,h3{
   font-size: 19px;
 }
+
 .calendario-data{
   font-size: 36px;
 }
+
 .secaoCalendar p,span{
   font-size: 15px;
 }
+
 .secaoCalendar button{
   font-size: 32px;
 }
+
 .secaoContato-informacoes{
   font-size: 15px;
 }
