@@ -1,5 +1,5 @@
 
-html,body,header,section,article,div,nav,span,figure,img,ul,li,main,section,h1,h2,h3,a,p,input,button{
+html, body, header, section, article, div, nav, span, figure, img, ul, li, main, section, h1, h2, h3, a, p, input, button {
   margin:0;
   padding:0;
   box-sizing:border-box;
@@ -87,7 +87,9 @@ ul a{
   flex-direction:column;
   text-align: start;
 }
-
+.secaoSobre{
+  padding:50px;
+}
 .secaoSobre .flex {
   padding:10px 60px;;
 }
