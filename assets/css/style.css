@@ -16,11 +16,24 @@ Cinza Claro: #818181 */
 --colorHeader: #00043e;
 --colorFonts: #FFFFFF;
 --colorButtom: #007aff;
+--colorParagrafo: #818181;
+--fontePrimaria: Montserrat, sans-serif;
+--fonteSecundaria: Lato, sans-serif;
+--colorTitles: #303030;
 }
 
 /*      -------------      */
 
-
+body{
+  font-family: var(--fonteSecundaria);
+  color: var(--colorParagrafo);
+}
+h2,h3{
+  color: var(--colorTitles);
+}
+h2{
+  font-family: var(--fontePrimaria);
+}
 header{
   background-color: var(--colorHeader);
   height: 100px;
@@ -44,6 +57,7 @@ nav ul{
   color: var(--colorFonts);
   padding: 0 15px 0px 15px;
 }
+
 .secaoDestaqueFormulario{
   padding-bottom: 100px;
   padding-top: 20px;
@@ -91,29 +105,101 @@ ul a{
 .flex-col{
   font-size: 19px;
 }
-
+.secaoCursos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 .secaoCursos h2{
   font-size: 24px;
+  padding: 20px 0 20px 0;
 }
-
 .secaoCursos p{
+  padding: 10px 0 60px 0;
   font-size: 19px;
 }
+li{
+  padding:2px;
+}
+li img{
+  width: 33%;
 
-.secaoCalendar h2,h3{
-  font-size: 19px;
+}
+li h3{
+  padding-top: 10px;
+  font-weight: lighter;
+}
+li p{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: var(--colorParagrafo);
 }
 
+.secaoCalendar{
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  text-align: center;
+  padding: 10px 50px 50px 50px;
+}
+
+.secaoCalendar h2{
+  font-size: 19px;
+  padding-bottom: 30px;
+}
+
+.secaoCalendar h3{
+  font-size: 19px;
+  padding-top: 35px;
+  padding-bottom: 40px;
+}
+.secaoCalendar li{
+  border: var(--colorHeader) solid 2px;
+  padding: 0;
+  list-style: none;
+  margin-bottom: 60px;      /*  zerar no mediaquery  */
+  
+}
 .calendario-data{
   font-size: 36px;
+  background-color: var(--colorHeader);
+  color: var(--colorFonts);
+}
+.calendario-data span{
+  padding-top: 28px;
 }
 
+.secaoCalendar span{
+  display: block;
+  height: 100px;
+  padding-top: 28px;
+ 
+}
 .secaoCalendar p,span{
   font-size: 15px;
+}
+.secaoCalendar p{
+  padding: 0 10px 50px;
+}
+.calendario p{
+  padding: 0 15px 50px;
+}
+
+.calendario-data-rodape{
+  display:block;
+  padding-bottom: 50px;
 }
 
 .secaoCalendar button{
   font-size: 32px;
+  border-radius: 5px;
+  background-color: var(--colorButtom);
+  color: var(--colorFonts);
+  border: none;
+  width: 180px;
+  padding: 10px;
+
 }
 
 .secaoContato-informacoes{
