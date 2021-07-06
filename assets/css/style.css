@@ -412,4 +412,29 @@ header.topo{
     padding: 0;
     width:100%
   }
+  .js{
+    display:flex;
+    justify-content: space-between;
+  }
+  .flex-col.flex-col--js figure {
+    padding:0 auto;
+    text-align:center;
+  }
+  .flex-col.flex-col--js figure img{
+  width:200px;
+  height:200px;
+  }
+  .flex-col.flex-col--js {
+    padding:40px;
+    padding-left:120px;
+  }
+  .flex-col h2{
+    text-align: left;
+  }
+  .flex-col ul{
+    padding-left:2rem;
+  }
+  section.secaoCursos{
+    display:flex;
+  }
 }
