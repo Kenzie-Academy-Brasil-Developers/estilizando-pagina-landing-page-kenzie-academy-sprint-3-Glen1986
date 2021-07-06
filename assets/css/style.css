@@ -41,6 +41,13 @@ header{
   height: 100px;
 }
 
+.lista img{
+  position: absolute;
+  right:15px;
+  top:20px;
+  width: 25px;
+  height: 15px;
+}
 .large-container{
   width: 60px;
   padding: 20px 0 0 20px;
@@ -330,13 +337,35 @@ input#email{
   color: black;
 }
 
-footer{
-  display: none;
-}
 i{
   width: 15px;
   height: 15px;
   color: #00043e;
+}
+
+
+footer img{
+  display: flex;
+  
+  padding-left: 150px;
+}
+
+#toggle-1 {
+  display:none;
+}
+label { 
+ display: inline-block;
+ cursor: pointer;
+ padding: 5px;
+}
+
+#mostra {
+  display:none;
+  text-align: center;
+}
+
+#toggle-1:checked ~ #mostra {
+  display:block;
 }
 /************
  *
