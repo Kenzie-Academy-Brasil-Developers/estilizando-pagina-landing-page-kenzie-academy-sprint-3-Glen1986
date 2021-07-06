@@ -6,9 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="icon-96x96.webp">
   <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <title>Landing Page Kenzie Academy</title>
-  
 </head>
 <body>
   
@@ -19,12 +17,18 @@
       <!-- LOGO -->
       <figure>
         <img src="assets/img/logo.svg" alt="Logo Kenzie Academy">
-        <figcaption></figcaption>  
+        <figcaption>Logo Kenzie Academy</figcaption>  
       </figure>
 
       <!-- MENU DE NAVEGAÇÃO -->
       <nav>
-        <ul>
+         <div id="menu-hamburguer">
+          <label for="checkbox"></i></label>
+          <input type="checkbox" id="checkbox" checked/>
+          <span></span>
+          <span></span>
+          <span></span>
+        <ul class="menu">
           <li><a href="#1">Sobre a Kenzie</a></li>
           <li><a href="#2">Agenda</a></li>
           <li><a href="#3">Contato</a></li>
@@ -45,7 +49,7 @@
 
       <!-- FORMULÁRIO -->
       <div class="secaoDestaqueFormulario">
-        <input type="email"  placeholder="   E-mail" required>
+        <input type="email"  placeholder="E-mail" required>
         <button type="button">Subscribe</button>
       </div>
 
@@ -54,13 +58,14 @@
     <!-- SEÇÃO SOBRE -->
     <section class="secaoSobre">
 
+        <div class="python">
       <article class="flex">
         
         <!-- COLUNA ESQUERDA -->
         <div class="flex-col">
 
           <h2>LOREM IPSUM DOLOR SIT PYTHON</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit deleniti incidunt</br> nam quibusdam fugit</br> reprehenderit aperiam</br> temporibus, maiores</br> dolores molestias </br> cupiditate maxime </br>repudiandae sunt voluptatibus commodi tenetur dolorum ipsa sequi.
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit deleniti incidunt nam quibusdam fugit reprehenderit aperiam temporibus, maiores dolores molestias cupiditate maxime repudiandae sunt voluptatibus commodi tenetur dolorum ipsa sequi.
           </p>
 
           <span>Consectetur adipisicing elit 5 Suscipit deleniti incidunt nam quibusdam fugit reprehenderit aperiam.</span>
@@ -76,11 +81,12 @@
             <img src="assets/img/python.png"  alt="python">
             <figcaption></figcaption>  
           </figure>      
-
+         </div>
         </div>
 
         <!-- COLUNA ESQUERDA -->
-        <div class="flex-col">
+        <div class="js">
+          <div class="flex-col flex-col--js">
 
             <figure class="imagejavascript">
               <img src="assets/img/JavaScript-logo.png" alt="Java Script">
@@ -100,7 +106,7 @@
                 <li>Section 1.10.33 of "de Finibus Bonorum et Malorum", by Cicero in 45 BC</li>
                 <li>1914 translation by H. Rackham</li>
             </ul>
-
+          </div>
         </div>
 
         
@@ -175,7 +181,7 @@
           <h3>HTML/CSS</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo consectetur quae commodi sed eos repellendus adipisci architecto provident, et animi sapiente, rerum fugit quod voluptatum officia ipsum maxime nobis explicabo!</p>
           <div class="calendario-data-rodape">
-            <span class="horario">7pm</span>
+            <span>7mp</span>
             <button>Sign Up</button>
           </div>
         </li>
@@ -185,7 +191,7 @@
           <h3>JavaScript</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo consectetur quae commodi sed eos repellendus adipisci architecto provident, et animi sapiente, rerum fugit quod voluptatum officia ipsum maxime nobis explicabo!</p>
           <div class="calendario-data-rodape">
-            <span class="horario">7pm</span>
+            <span>7mp</span>
             <button>Sign Up</button>
           </div>
         </li>
@@ -195,7 +201,7 @@
           <h3>Python</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo consectetur quae commodi sed eos repellendus adipisci architecto provident, et animi sapiente, rerum fugit quod voluptatum officia ipsum maxime nobis explicabo!</p>
           <div class="calendario-data-rodape">
-            <span class="horario">7pm</span>
+            <span>7mp</span>
             <button>Sign Up</button>
           </div>
         </li>
@@ -211,16 +217,16 @@
         <!-- COLUNA LADO ESQUERDO -->
         <div class="flex-col">
           
-          <h2>Contact</h2>
-
           <div class="secaoContato-informacoes">
-            
+          
             <p>Contact us and we'll get back to you within 24 hours.</p>
             
+
             <ul class="icone">
               <li><img src="pin-de-localizacao.png" alt="" ><a href="#"> Chicago, US</a> </li>
               <li><img src="smartphone-call.png" alt=""><a href="tel:001515151515"> +00 1515151515</a></li>
               <li><img src="novo-envelope-de-email.png" alt=""><a href="malito:myemail@something.com"> myemail@something.com</a></li>
+
             </ul>
 
           </div>
@@ -230,26 +236,26 @@
         <!-- COLUNA LADO DIRETO -->
         <div class="flex-col">
           
+          <h2>Contact</h2>
           
-          
-          <form action="footerContact">
+          <form action="">
 
             <div class="form-input-model">
-              <label for="nome"></label>
-              <input type="text" placeholder="   Name" id="nome" name="nome">
+              <label for="nome">Nome</label>
+              <input type="text" placeholder="Name" id="nome" name="nome">
             </div>
 
             <div class="form-input-model">
-              <label for="email"></label>
-              <input type="text" placeholder="   E-mail" id="email" name="email">
+              <label for="email">E-mail</label>
+              <input type="text" placeholder="E-mail" id="email" name="email">
             </div>
 
             <div class="form-input-model">
-              <label for="mensagem"></label>
-              <textarea name="mensagem" id="mensagem" placeholder=" Comment"></textarea>
+              <label for="mensagem">E-mail</label>
+              <textarea name="mensagem" id="mensagem"></textarea>
             </div>
 
-            <input class="botaoSend" type="submit" value="Send">
+            <input type="submit" value="Send">
 
           </form>
 
@@ -264,7 +270,7 @@
   <footer>
     <p>Kenzie Academy - <a href="kenzie.com.br">kenzie.com.br</a></p>
   </footer>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+
   <script src="assets/js/script.js"></script>
 </body>
 </html>
