@@ -367,6 +367,11 @@ header.topo{
   width:100%;
   align-items:space-around;
   }
+.large-container figure img{
+  width:80px;
+  height:80px;
+  
+}
 .large-container nav div{
   padding-left:30rem;
   padding-top:2rem;
