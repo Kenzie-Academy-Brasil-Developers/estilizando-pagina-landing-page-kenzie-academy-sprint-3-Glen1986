@@ -22,20 +22,6 @@ Cinza Claro: #818181 */
 }
 
 /*      -------------      */
-
-
-body{
-  font-family: var(--fonteSecundaria);
-  color: var(--colorParagrafo);
-}
-h2,h3{
-  color: var(--colorTitles);
-}
-h2{
-  font-family: var(--fontePrimaria);
-  
-}
-
 .large-container{
   width: 60px;
   padding: 20px 0 0 20px;
@@ -83,7 +69,6 @@ ul a{
 .secaoDestaque h2{
   font-sze: 45px;
   font-weight: lighter;
-  color: var(--colorFonts);
 
 }
 
@@ -103,36 +88,11 @@ ul a{
 .flex-col{
   font-size: 19px;
 }
-.secaoSobre{
-  display: flex;
-  justify-content: center;
-  text-align: left;
-  align-items: center;
-}
-.secaoSobre h2{
-  padding: 60px 30px 0 30px;
-}
-.flex-col p{
-  padding: 30px 30px 0 30px;
-}
-
-.flex-col span{
-  
-  text-align:;
-}
-
-
-
-
-
-
 .secaoCursos{
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 0 20px 0 20px;
-  list-style: none;
 }
 .secaoCursos h2{
   font-size: 24px;
@@ -143,7 +103,7 @@ ul a{
   font-size: 19px;
 }
 li{
-  list-style: none;
+  padding:2px;
 }
 li img{
   width: 33%;
@@ -164,7 +124,7 @@ li p{
   flex-direction: column; 
   align-items: center;
   text-align: center;
-  padding: 10px 20px 50px 20px;
+  padding: 10px 50px 50px 50px;
 }
 
 .secaoCalendar h2{
@@ -175,14 +135,14 @@ li p{
 .secaoCalendar h3{
   font-size: 19px;
   padding-top: 35px;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 .secaoCalendar li{
   border: var(--colorHeader) solid 2px;
   padding: 0;
   list-style: none;
   margin-bottom: 60px;      /*  zerar no mediaquery  */
-  height: 600px; 
+  
 }
 .calendario-data{
   font-size: 36px;
@@ -203,15 +163,12 @@ li p{
   font-size: 15px;
 }
 .secaoCalendar p{
-  padding: 0 40px 40px;
-  line-height: 22px;
+  padding: 0 10px 50px;
 }
 .calendario p{
-  padding: 0 30px 20px;
+  padding: 0 15px 50px;
 }
-.horario{
-  font-size: 40px;
-}
+
 .calendario-data-rodape{
   display:block;
   padding-bottom: 50px;
@@ -227,74 +184,20 @@ li p{
   padding: 10px;
 
 }
+
 .secaoContato-informacoes{
   font-size: 15px;
-
+}i
+body{
+  font-family:'lato', sans-serif;
 }
-.secaoContato-informacoes a{
-  text-decoration: none;
-  color: var(--colorParagrafo);
+h1,h2,span,p{
+  font-family: 'montserrat'
 }
-.secaoContato-informacoes li{
-  padding-bottom: 10px;
+header{
+  background-color: var(--colorHeader);
+  height: 100px;
 }
-.secaoContato-informacoes p{
-  padding-bottom: 10px;
-}
-.secaoContato{
-  padding:0 20px 0 20px;
-  text-align:left;
-  display: flex;
-  align-items: center;
-}
-.secaoContato ul{
-  list-style: none;
-}
-
-.secaoContato h2{
-  text-align: center;
-}
-.flex-col img{
-  width: 12px;
-  height: 12px;
-}
-
-.flex-col h2{
-  padding-bottom: 20px;
-}
-.flex-col textarea{
-  width: 274px;
-  height: 80px;
-  padding-top: 10px;
-}
-.form-input-model{
-  padding-bottom: 10px;
-}
-.flex-col input{
-  height: 40px;
-}
-input#nome{
-  width: 280px;
-}
-input#email{
-  width: 280px;
-}
-
-.botaoSend{
-  width: 50px;
-  float: right;
-  color: black;
-}
-
-footer{
-  display: none;
-}
-i{
-  width: 15px;
-  height: 15px;
-  color: #00043e;
-}
-=======
 
 .large-container{
   width: 60px;
