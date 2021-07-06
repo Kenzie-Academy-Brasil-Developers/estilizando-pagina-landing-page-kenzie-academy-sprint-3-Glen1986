@@ -23,7 +23,9 @@ Cinza Claro: #818181 */
 
 /*      -------------      */
 
-
+body{
+  font-family:'lato', sans-serif;
+}
 header{
   background-color: var(--colorHeader);
   height: 100px;
@@ -152,11 +154,8 @@ ul a{
     background-color:red
   }
 }
-@media screen and (min-width: 780px){
-  body{
-    background-color:red
-  }
 
-}
+
+
 
 
