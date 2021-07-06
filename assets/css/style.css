@@ -434,7 +434,8 @@ header.topo{
   .flex-col ul{
     padding-left:2rem;
   }
-  section.secaoCursos{
+  section.secaoCursos ul{
     display:flex;
+    
   }
 }
