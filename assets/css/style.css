@@ -41,8 +41,13 @@ header{
 nav ul{
   display: none;
 }
-h2{
+.secaoDestaque h2{
+  line-height:90px;
   font-family: var(--h2);
+}
+.secaoDestaque p{
+  line-height:60px;
+  font-weight:100;
 }
 .secaoDestaque{
   background-color: var(--colorHeader);
@@ -210,4 +215,9 @@ ul a{
 }
 .secaoCursos img{
   width:var(--imgSize);
+}
+@media screen and (min-width: 780px){
+  body{
+    background-color:red
+  }
 }
