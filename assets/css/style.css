@@ -103,20 +103,6 @@ ul a{
 
 }
 
-.secaoDestaque p{
-  font-size: 21px;
-  margin-top: 0px;
-}
-
-ul a{
-  font-size: 13px;
-}
-.secaoDestaque h2{
-  font-size: 63px;
-}
-.secaoDestaque p{
-  font-size: 21px;
-}
 .secaoDestaque button{
   font-size: 14px;
 }
@@ -228,84 +214,7 @@ li p{
 .secaoContato-informacoes{
   font-size: 15px;
 }
-/*sectio secionDestaque*/
-.secaoDestaque{
-  background-color:var(--headerColor);
-  color: white;
-  padding-bottom:30px;
-}
-.secaoSobre{
-  padding-top:30%;
-  text-align:center;
-}
-.flex-col{
-  display: flex;
-  flex-direction:column;
-  text-align: start;
-}
 
-.secaoSobre .flex {
-  padding:10px 60px;;
-}
-.secaoSobre .flex .flex-col h2{
-  padding:0 0 60px 0;
-  margin: 0 auto;
-}
-.secaoSobre .flex figure img{
-  margin:0 auto;
-  width:100%;
-  height:100%;
-}
-.flex-col{
-  margin-bottom:60px;
-  display:flex;
-  flex-direction:column;
-  text-align:start;
-}
-.flex-col span, button{
-  margin-top:30px;
-}
-.flex-col button{
-  height:60px;
-}
-.flex-col figure img{
-  height:200px;
-  text-align:center;
-}
-.flex-col figure figcaption{
-  display:none;
-
-}
-.js {
-  background-color: #cccccc;
-  padding: 60px 60px 0 60px;
-  text-align:center;
-}
-.flex-col.flex-col--js figure img{
-  width:120px;
-  height:120px;
-}
-.flex-col.flex-col--js{
- margin-bottom:20px; 
-}
-.flex-col.flex-col--js figure{
-  text-align:center;
-}
-.js h2{
-  text-align:center;
-  padding: 0 20px; 
-}
-.js ul{
-  text-align:start;
-  color:var(--cinza);
-  margin: 55px 35px ;
-}
-.js ul li{
-  line-height:30px;
-}
-.secaoCursos img{
-  width:var(--imgSize);
-}
 @media screen and (min-width: 780px){
   body{
     background-color:red
