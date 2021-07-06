@@ -376,11 +376,7 @@ header.topo{
   padding:0 20% 10% 20%;
   align-items:space-around;
   }
-.python figure img{
-  width:80px;
-  height:80px;
-  padding-left:10%;
-  }
+
 .large-container{
   display:flex;
   text-align: center;
@@ -401,15 +397,19 @@ header.topo{
     background-image: url(../img/background-destaque.webp);
     padding-top:6rem;
   }
-  .python article.flex{
-    justify-content:center;
-  }
+
   article.felx .flex-col h2{
     text-align:start;
   }
   .secaoSobre{
     padding: 0 20%;
   }
+  .secaoSobre .python .flex .flex-col{
+    display:flex;
+    text-align:left;
+  
+  }
+
   .secaoSobre .python article{
     display:flex;
     flex-direction:row;
@@ -421,10 +421,13 @@ header.topo{
   }
   .python .flex figure img{
     height:280px;
+    width:460px;
   } 
   .python button{
-    width:100px
-
+    width:100px;
+    float: left;
+    margin-left:-340px;
+    font-weight:100;
   }
   .secaoSobre .python article.flex .flex-col figure{
     width:500px;
@@ -436,14 +439,16 @@ header.topo{
   .js{
     display:flex;
     justify-content: space-between;
+    background-color: #eeeee;
   }
   .flex-col.flex-col--js figure {
     padding:0 auto;
     text-align:center;
+    padding-left:6rem;
   }
   .flex-col.flex-col--js figure img{
-  width:200px;
-  height:200px;
+  width:180px;
+  height:180px;
   }
   .flex-col.flex-col--js {
     padding:40px;
