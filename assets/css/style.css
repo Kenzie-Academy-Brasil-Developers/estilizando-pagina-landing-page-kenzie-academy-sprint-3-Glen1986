@@ -33,6 +33,51 @@ header{
 h2{
   font-family: 'Montserrat';
 }
+.secaoDestaque{
+  background-color: var(--colorHeader);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: var(--colorFonts);
+  padding: 0 15px 0px 15px;
+}
+.secaoDestaqueFormulario{
+  padding-bottom: 100px;
+  padding-top: 20px;
+  border-radius: 4px;
+}
+.secaoDestaqueFormulario input{
+  border-radius: 4px 0 0 4px;
+  height: 40px;
+  border: 0;
+ 
+}
+.secaoDestaqueFormulario button{
+  border-radius: 0 4px 4px 0;
+  height: 40px;
+  background-color: var(--colorButtom);
+  border: 0;
+  color: var(--colorFonts);
+  padding: 10px;
+  float: right;
+}
+
+ul a{
+  font-size: 13px;
+}
+
+.secaoDestaque h2{
+  font-size: 45px;
+  font-weight: lighter;
+
+}
+
+.secaoDestaque p{
+  font-size: 21px;
+  margin-top: 0px;
+}
 
 ul a{
   font-size: 13px;
