@@ -191,6 +191,9 @@ li p{
 body{
   font-family:'lato', sans-serif;
 }
+h1,h2,span,p{
+  font-family: 'montserrat'
+}
 header{
   background-color: var(--colorHeader);
   height: 100px;
@@ -322,6 +325,12 @@ ul a{
 }
 
 @media screen and (min-width: 780px){
+body{
+  font-family:'lato', sans-serif;
+}
+h1,h2,span,p{
+  font-family: 'montserrat', sans-serif;
+}
   #menu-hamburguer #checkbox {
     display: none;
   }
@@ -335,6 +344,8 @@ ul a{
 nav ul li a{
    color: white;
    display: ruby;
+   text-decoration:none;
+   margin-right:20px;
 
 }
 header.topo{
@@ -345,8 +356,8 @@ header.topo{
   align-items:space-around;
 }
 figure img{
-  width:100px;
-  height:100px;
+  width:80px;
+  height:80px;
   padding-left:10%;
 }
 .large-container{
@@ -363,5 +374,9 @@ figure img{
   .secaoDestaque{
     background-image: url(../img/background-destaque.webp);
     padding-top:6rem;
+  }
+  .secaoSobre .python article{
+    display:flex;
+    flex-direction:row;
   }
 }
