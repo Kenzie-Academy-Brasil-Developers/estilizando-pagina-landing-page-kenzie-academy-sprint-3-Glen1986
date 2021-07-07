@@ -445,6 +445,9 @@ figure.lista img{
     padding-top:6rem;
     padding-bottom:8rem;
   }
+  .secaoDestaque h2{
+    margin-top:6rem;
+  }
   .secaoDestaqueFormulario{
     width:35%;
     max-width:400px;
