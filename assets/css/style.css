@@ -395,7 +395,7 @@ label {
 .mobileMenu{
   background-color:#ffffff;
   border:1px solid #ffffff;
-  display: flex;
+  display: none;
   text-align:center;
   flex-direction:column;
   width:100%;
@@ -660,7 +660,7 @@ figure.lista img{
   }
   form input[type='submit']{
     width:4rem;
-    margin-left:89%;
+    margin-left:267px;
     flex:reverse;
   }
 
