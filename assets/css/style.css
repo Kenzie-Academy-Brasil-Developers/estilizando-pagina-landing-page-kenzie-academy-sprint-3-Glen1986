@@ -166,8 +166,10 @@ ul a{
 }
 .imagepython img{
   width: 90%;
+
 }
 .imagejavascript{
+
 
 }
 .flex-col .h2sobre{
@@ -297,10 +299,17 @@ li p{
   color: var(--colorParagrafo);
 }
 .secaoContato-informacoes li{
-  padding-bottom: 10px;
+  padding-bottom: 15px;
+  padding-top: 0;
 }
 .secaoContato-informacoes p{
-  padding-bottom: 10px;
+  padding-bottom: 40px;
+}
+.chicago{
+  padding-left: 5px;
+}
+li.email{
+  padding-bottom: 40px;
 }
 .secaoContato{
   padding:0 20px 0 20px;
@@ -324,7 +333,9 @@ li p{
   color:var(--colorTitles)
 }
 .flex-col-form textarea{
+
   width:274px;
+
   height: 80px;
   padding-top: 10px;
 }
@@ -336,13 +347,19 @@ li p{
 }
 input#nome{
   width: 280px;
+  padding: 5px 0 5px 0;
 }
 input#email{
   width: 280px;
+  padding: 5px 0 5px 0;
 }
-
+.flex-col-form h2{
+  display: none;
+}
 .botaoSend{
+
   width: 50px;
+
   color: black;
   display: block;
   position: relative;
@@ -505,7 +522,6 @@ figure.lista img{
     text-align:left;
   
   }
-
   .secaoSobre .python article{
     display:flex;
     flex-direction:row;
@@ -544,8 +560,8 @@ figure.lista img{
     padding-left:6rem;
   }
   .flex-col.flex-col--js figure img{
-  width:180px;
-  height:180px;
+    width:180px;
+    height:180px;
   }
   .flex-col.flex-col--js {
     padding:40px;
@@ -601,10 +617,10 @@ figure.lista img{
     display:none;
   }
  .flex-col .ulsobre{
-  display: flex;
-  flex-direction: column;
-  text-align: start;
-  padding: 30px 45px 0 90px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding: 30px 45px 0 90px;
   }  
   .calendario-data-rodape span{
     font-size:24px;
@@ -620,7 +636,7 @@ figure.lista img{
     width:48%;
   }
   .flex-col-form{
-   width:550px
+    width:550px
   }
   .flex-col-form textarea{
     width:99%;
@@ -640,12 +656,12 @@ figure.lista img{
    margin-right:-20px;
   }
   .secaoContato h2{
-  text-align: left;
-  padding-bottom:1rem;
-  line-height:1rem;
-  font-weight:400;
-  text-transform:uppercase;
-  padding-left:1rem;
+   text-align: left;
+   padding-bottom:1rem;
+   line-height:1rem;
+   font-weight:400;
+   text-transform:uppercase;
+   padding-left:1rem;
   }
   .flex-col-form .names{
     display: flex;
