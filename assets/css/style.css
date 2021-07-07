@@ -402,8 +402,8 @@ header.topo{
   display: flex;
   height:60px;
   -webkit-box;
-  padding:0 20% 10% 20%;
-  align-items:space-around;
+  padding:0 20% 6% 20%;
+  align-items:center;
   }
 
 .large-container{
@@ -417,12 +417,11 @@ figure.lista img{
   display:none;
 }
 .large-container figure img.logo{
-  width:80px;
-  height:80px;
+  width:50px;
+  height:50px;
  }
 .large-container nav div{
   padding-left:30rem;
-  padding-top:2rem;
   }
   .secaoDestaque{
     background-image: url(../img/background-destaque.webp);
