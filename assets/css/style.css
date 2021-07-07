@@ -306,6 +306,7 @@ li p{
   padding:0 20px 0 20px;
   text-align:left;
   display: flex;
+  flex-direction:column;
   align-items: center;
 }
 .secaoContato ul{
@@ -578,7 +579,7 @@ figure.lista img{
 
   .secaoCalendar ul.calendario li{
     width:20%;
-    margin: 0 4px;
+    margin: 0 4rem;
   }
   section.secaoCalendar ul.calendario{
    justify-content:center; 
@@ -620,17 +621,12 @@ figure.lista img{
     width:48%;
   }
   .flex-col-form{
-   width:550px
-  }
-  .flex-col-form textarea{
-    width:99%;
+   width:550px;
+   padding-top: 2rem;
   }
   .form-input-model#nome.form-input-model#email{
     display:inline-block;
     color:red;
-  }
-  .form-input-model form [type='submit']{
-    padding-left:60%;
   }
   form #email{
     justify-content: flex-end;
@@ -645,7 +641,7 @@ figure.lista img{
   line-height:1rem;
   font-weight:400;
   text-transform:uppercase;
-  padding-left:1rem;
+  padding-left:2%;
   }
   .flex-col-form .names{
     display: flex;
@@ -658,10 +654,8 @@ figure.lista img{
     width:206%;
     height:5rem;
   }
-  form input[type='submit']{
+  form input.botaoSend{
     width:4rem;
-    margin-left:267px;
-    flex:reverse;
   }
 
   div.names div.form-input-model #nome, div.names div.form-input-model #email{
