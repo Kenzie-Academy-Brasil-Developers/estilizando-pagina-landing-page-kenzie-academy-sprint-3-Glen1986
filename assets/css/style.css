@@ -331,7 +331,9 @@ li.email{
 }
 .flex-col h2{
   padding-bottom: 20px;
-  color:var(--colorTitles)
+  color:var(--colorTitles);
+  text-transform: uppercase;
+  font-weight:500;
 }
 .flex-col-form textarea{
 
