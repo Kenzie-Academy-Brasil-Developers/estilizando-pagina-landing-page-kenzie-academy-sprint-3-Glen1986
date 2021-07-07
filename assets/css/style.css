@@ -333,7 +333,9 @@ li.email{
 }
 .flex-col h2{
   padding-bottom: 20px;
-  color:var(--colorTitles)
+  color:var(--colorTitles);
+  text-transform: uppercase;
+  font-weight:500;
 }
 .flex-col-form textarea{
   width:274px;
@@ -614,6 +616,7 @@ figure.lista img{
     flex-direction:row;
     background-color: #dddddd;
     width:100%;
+    padding-top:6rem;
   }
   .secaoContato .flex .flex-col{
     padding-left:15%;
@@ -639,15 +642,14 @@ figure.lista img{
   .secaoContato form{
     display: flex;
     flex-direction:column;
+    margin-top:1.8rem;
   }
   .secaoContato form #nome,form #email{
     width:48%;
   }
   .flex-col-form{
-
    width:550px;
    padding-top: 2rem;
-
   }
   .form-input-model#nome.form-input-model#email{
     display:inline-block;
@@ -667,7 +669,7 @@ figure.lista img{
   font-weight:400;
   text-transform:uppercase;
   position: relative;
-  right:-100%;
+  right:-110%;
 
   }
   .flex-col-form .names{
