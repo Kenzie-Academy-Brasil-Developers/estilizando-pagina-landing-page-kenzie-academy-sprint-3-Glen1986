@@ -40,7 +40,9 @@ header{
   background-color: var(--colorHeader);
   height: 100px;
 }
-
+figcaption, input#checkbox{
+  display:none;
+}
 .lista img{
   position: absolute;
   right:15px;
@@ -537,11 +539,9 @@ figure.lista img{
   .calendario-data-rodape span{
     font-size:24px;
   }
-   .calendario-data-rodape > span{
-    font-size:48px;
-  }
-  .secaoContato > .flex{
-    display:flex;
+   
+  .secaoContato{
+   margin-left:-20px;
   }
 }
 
