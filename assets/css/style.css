@@ -166,6 +166,11 @@ ul a{
 }
 .imagepython img{
   width: 90%;
+
+}
+.imagejavascript{
+
+
 }
 .flex-col .h2sobre{
   padding-top: 20px;
@@ -328,7 +333,9 @@ li.email{
   color:var(--colorTitles)
 }
 .flex-col-form textarea{
-  width: 98%;
+
+  width:274px;
+
   height: 80px;
   padding-top: 10px;
 }
@@ -350,10 +357,13 @@ input#email{
   display: none;
 }
 .botaoSend{
-  width: 60px;
-  padding: 4px;
-  float: right;
+
+  width: 50px;
+
   color: black;
+  display: block;
+  position: relative;
+  left: 220px;
 }
 
 i{
@@ -394,14 +404,47 @@ label {
 #toggle-1:checked ~ #mostra {
   display:block;
 }
+/**menu mobile**/
+
+.box{
+  display: block;
+}
+.mobileMenu{
+  background-color:#ffffff;
+  border:1px solid #ffffff;
+  display: flex;
+  text-align:center;
+  flex-direction:column;
+  width:100%;
+  position:relative;
+  top:2rem;
+  height: 10rem;
+  box-sizing:border-box;
+}
+.mobileMenu a{
+  text-decoration:none;
+  list-style:none;
+  color:var(--colorParagrafo);
+ }
+ .mobileMenu li{
+  border:1px solid grey;
+  width:100%;
+  height:33.3%;
+
+ }
+
 /************
  *
-desktop
+media query desktop
  *
  *
  */
  
 @media screen and (min-width: 780px){
+  .mobileMenu{
+
+    display:none;
+  }
 body{
   font-family:'lato', sans-serif;
   }
