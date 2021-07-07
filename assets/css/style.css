@@ -365,7 +365,7 @@ footer img{
   display:none;
 }
 label { 
- display: inline-block;
+ display: none;
  cursor: pointer;
  padding: 5px;
 }
@@ -577,6 +577,29 @@ figure.lista img{
   }
   .seta{
     cursor: pointer;
+  }
+  .secaoContato form{
+    display: flex;
+    flex-direction:column;
+  }
+  .secaoContato form #nome,form #email{
+    width:48%;
+  }
+  .flex-col-form{
+   width:550px
+  }
+  .flex-col-form textarea{
+    width:99%;
+  }
+  .form-input-model#nome.form-input-model#email{
+    display:inline-block;
+    color:red;
+  }
+  .form-input-model form [type='submit']{
+    padding-left:60%;
+  }
+  form #email{
+    justify-content: flex-end;
   }
   .secaoContato{
    margin-left:-20px;
