@@ -165,11 +165,7 @@ ul a{
   
 }
 .imagepython img{
-  width: 250px;
-  height: 168px;
-}
-.imagejavascript{
-
+  width: 90%;
 }
 .flex-col .h2sobre{
   padding-top: 20px;
@@ -298,10 +294,17 @@ li p{
   color: var(--colorParagrafo);
 }
 .secaoContato-informacoes li{
-  padding-bottom: 10px;
+  padding-bottom: 15px;
+  padding-top: 0;
 }
 .secaoContato-informacoes p{
-  padding-bottom: 10px;
+  padding-bottom: 40px;
+}
+.chicago{
+  padding-left: 5px;
+}
+li.email{
+  padding-bottom: 40px;
 }
 .secaoContato{
   padding:0 20px 0 20px;
@@ -324,8 +327,8 @@ li p{
   padding-bottom: 20px;
   color:var(--colorTitles)
 }
-.flex-col textarea{
-  width: 100%;
+.flex-col-form textarea{
+  width: 98%;
   height: 80px;
   padding-top: 10px;
 }
@@ -337,13 +340,18 @@ li p{
 }
 input#nome{
   width: 280px;
+  padding: 5px 0 5px 0;
 }
 input#email{
   width: 280px;
+  padding: 5px 0 5px 0;
 }
-
+.flex-col-form h2{
+  display: none;
+}
 .botaoSend{
-  width: 50px;
+  width: 60px;
+  padding: 4px;
   float: right;
   color: black;
 }
@@ -420,7 +428,6 @@ nav ul li a{
 header.topo{
   display: flex;
   height:60px;
-  -webkit-box;
   padding:0 20% 6% 20%;
   align-items:center;
   }
@@ -472,7 +479,6 @@ figure.lista img{
     text-align:left;
   
   }
-
   .secaoSobre .python article{
     display:flex;
     flex-direction:row;
@@ -511,8 +517,8 @@ figure.lista img{
     padding-left:6rem;
   }
   .flex-col.flex-col--js figure img{
-  width:180px;
-  height:180px;
+    width:180px;
+    height:180px;
   }
   .flex-col.flex-col--js {
     padding:40px;
@@ -568,10 +574,10 @@ figure.lista img{
     display:none;
   }
  .flex-col .ulsobre{
-  display: flex;
-  flex-direction: column;
-  text-align: start;
-  padding: 30px 45px 0 90px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding: 30px 45px 0 90px;
   }  
   .calendario-data-rodape span{
     font-size:24px;
@@ -587,7 +593,7 @@ figure.lista img{
     width:48%;
   }
   .flex-col-form{
-   width:550px
+    width:550px
   }
   .flex-col-form textarea{
     width:99%;
@@ -607,12 +613,12 @@ figure.lista img{
    margin-right:-20px;
   }
   .secaoContato h2{
-  text-align: left;
-  padding-bottom:1rem;
-  line-height:1rem;
-  font-weight:400;
-  text-transform:uppercase;
-  padding-left:1rem;
+   text-align: left;
+   padding-bottom:1rem;
+   line-height:1rem;
+   font-weight:400;
+   text-transform:uppercase;
+   padding-left:1rem;
   }
   .flex-col-form .names{
     display: flex;
