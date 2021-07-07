@@ -170,8 +170,6 @@ ul a{
   flex-direction: column;
   text-align: start;
   padding: 30px 45px 0 90px;
-  justify-self: center;
-  align-items: center;
 }
 .flex-col li{
   padding-top: 10px;
@@ -413,10 +411,12 @@ header.topo{
   width:100%;
   align-items:space-around;
   }
-.large-container figure img{
+figure.lista img{
+  display:none;
+}
+.large-container figure img.logo{
   width:80px;
   height:80px;
-  
  }
 .large-container nav div{
   padding-left:30rem;
@@ -468,7 +468,8 @@ header.topo{
   .js{
     display:flex;
     justify-content: space-between;
-    background-color: #eeeee;
+    background-color: #eeeeee;
+    padding:4rem 0;
   }
   .flex-col.flex-col--js figure {
     padding:0 auto;
@@ -485,9 +486,11 @@ header.topo{
   }
   .flex-col h2{
     text-align: left;
+    padding-left:5rem;
   }
   .flex-col ul{
     padding-left:2rem;
+    margin-right:5rem;
   }
   section.secaoCursos ul{
     display:flex;
@@ -522,6 +525,17 @@ header.topo{
   .secaoContato .flex .flex-col .form-input-model label{
     display:none;
     
-   }
+ .flex-col .ulsobre{
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  padding: 30px 45px 0 90px;
+  }  
+  .calendario-data-rodape span{
+    font-size:24px;
+  }
+   .calendario-data-rodape > span{
+    font-size:48px;
+  }
 }
 
