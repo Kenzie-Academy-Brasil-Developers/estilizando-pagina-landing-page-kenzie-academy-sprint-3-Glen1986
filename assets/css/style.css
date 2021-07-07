@@ -150,6 +150,7 @@ ul a{
   text-align: center;
   font-family: var(--fonteSecundaria);
   font-size: 20px;
+  color:var(--colorTitles);
 }
 .flex-col figure{
   padding-top: 30px;
@@ -321,6 +322,7 @@ li p{
 }
 .flex-col h2{
   padding-bottom: 20px;
+  color:var(--colorTitles)
 }
 .flex-col textarea{
   width: 274px;
@@ -490,7 +492,7 @@ figure.lista img{
     font-weight:100;
   }
   .secaoSobre .python article.flex .flex-col figure{
-    width:500px;
+    width:550px;
   }
   .secaoSobre{
     padding: 0;
@@ -528,6 +530,8 @@ figure.lista img{
   section.secaoCursos ul{
     display:flex;
     flex-wrap: wrap;
+    align-items: baseline;
+    margin-bottom:4rem;
   }
   section.secaoCursos ul li {
     width:33%;
