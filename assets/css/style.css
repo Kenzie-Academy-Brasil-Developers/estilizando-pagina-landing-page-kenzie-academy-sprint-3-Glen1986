@@ -606,6 +606,35 @@ figure.lista img{
    margin-left:-20px;
    margin-right:-20px;
   }
+  .secaoContato h2{
+  text-align: left;
+  padding-bottom:1rem;
+  line-height:1rem;
+  font-weight:400;
+  text-transform:uppercase;
+  padding-left:1rem;
+  }
+  .flex-col-form .names{
+    display: flex;
+    justify-content:space-between;
+  }
+  div.form-input-model{
+    width:48%;
+  }
+  div.form-input-model textarea{
+    width:206%;
+    height:5rem;
+  }
+  form input[type='submit']{
+    width:4rem;
+    margin-left:89%;
+    flex:reverse;
+  }
+
+  div.names div.form-input-model #nome, div.names div.form-input-model #email{
+    width:100%;
+
+  }
   #mostra{
     display: flex;
   }
