@@ -659,7 +659,8 @@ figure.lista img{
   line-height:1rem;
   font-weight:400;
   text-transform:uppercase;
-  padding-left:2%;
+  position: relative;
+  right:-100%;
 
   }
   .flex-col-form .names{
@@ -675,6 +676,8 @@ figure.lista img{
   }
   form input.botaoSend{
     width:4rem;
+    position: relative;
+    left:89%;
   }
 
   div.names div.form-input-model #nome, div.names div.form-input-model #email{
