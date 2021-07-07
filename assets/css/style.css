@@ -1,5 +1,5 @@
 
-html,body,header,section,article,div,nav,span,figure,img,ul,li,main,section,h1,h2,h3,a,p,input,button{
+html, body, header, section, article, div, nav, span, figure, img, ul, li, main, h1, h2, h3, a, p, input, button{
   margin:0;
   padding:0;
   box-sizing:border-box;
@@ -518,6 +518,7 @@ figure.lista img{
     display:flex;
     flex-direction:row;
     background-color: #dddddd;
+    width:100%;
   }
   .secaoContato .flex .flex-col{
     padding-left:15%;
