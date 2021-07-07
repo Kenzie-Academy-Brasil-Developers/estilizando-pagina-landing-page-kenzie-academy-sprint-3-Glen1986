@@ -365,7 +365,7 @@ footer img{
   display:none;
 }
 label { 
- display: inline-block;
+ display: none;
  cursor: pointer;
  padding: 5px;
 }
@@ -577,6 +577,16 @@ figure.lista img{
   }
   .seta{
     cursor: pointer;
+  }
+  .secaoContato form{
+    display: flex;
+    flex-direction:column;
+  }
+  .secaoContato form #nome,form #email{
+    width:48%;
+  }
+  form #email{
+    justify-content: flex-end;
   }
   .secaoContato{
    margin-left:-20px;
