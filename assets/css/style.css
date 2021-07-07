@@ -310,7 +310,9 @@ li.email{
   padding:0 20px 0 20px;
   text-align:left;
   display: flex;
+  flex-direction: column;
   align-items: center;
+  
 }
 .secaoContato ul{
   list-style: none;
@@ -328,7 +330,7 @@ li.email{
   color:var(--colorTitles)
 }
 .flex-col-form textarea{
-  width: 98%;
+  width: 274px;
   height: 80px;
   padding-top: 10px;
 }
@@ -352,7 +354,9 @@ input#email{
 .botaoSend{
   width: 60px;
   padding: 4px;
-  float: right;
+  display: block;
+  position: relative;
+  left: 220px;
   color: black;
 }
 
