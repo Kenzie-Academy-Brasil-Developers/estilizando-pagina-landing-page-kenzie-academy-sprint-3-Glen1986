@@ -49,10 +49,15 @@ figcaption, input#checkbox{
   top:20px;
   width: 25px;
   height: 15px;
+  cursor:pointer;
+}
+.svg-inline---fa.fa-angle-up.fa-w{
+  height:30px;
 }
 .fa-bar{
   height:40px;
-  width:40px
+  width:40px;
+  cursor:pointer;
 }
 .large-container{
   width: 60px;
@@ -362,7 +367,15 @@ label {
  cursor: pointer;
  padding: 5px;
 }
-
+.seta{
+  text-align:center;
+  color:var(--colorButtom);
+  padding-top:2rem;
+  padding-bottom:2rem;
+}
+.seta{
+    cursor: pointer;
+  }
 #mostra {
   display:none;
   text-align: center;
@@ -554,9 +567,18 @@ figure.lista img{
   .calendario-data-rodape span{
     font-size:24px;
   }
-   
+  .seta{
+    cursor: pointer;
+  }
   .secaoContato{
    margin-left:-20px;
+  }
+  #mostra{
+    display: flex;
+  }
+  #mostra p{
+    margin:0 auto;
+    padding-bottom:3rem;
   }
 }
 
